@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 16
+names: ['block', 'cross', 'elbow', 'high kick', 'hook', 'jab', 'knee', 'low kick', 'middle kick', 'no action', 'orthodox stance', 'overhand', 'southpaw stance', 'takedown', 'teep', 'uppercut']
+
+roboflow:
+  workspace: martial-arts-vision
+  project: mma-vision
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/martial-arts-vision/mma-vision/dataset/5
